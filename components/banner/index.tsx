@@ -54,7 +54,7 @@ const Banner = () => {
               <div className="container">
                 <div className="carousel-caption">
                   <h2
-                    className={`mb-5 max-w-full text-3xl font-bold uppercase leading-tight transition delay-500 duration-1000 sm:w-full sm:text-4xl md:text-5xl lg:w-2/3 lg:text-6xl ${
+                    className={`mb-5 max-w-full text-3xl font-bold uppercase leading-tight transition delay-500 duration-1000 sm:w-full sm:text-xl md:text-2xl lg:w-2/3 lg:text-4xl ${
                       current === item.id
                         ? "translate-y-0 opacity-100"
                         : "translate-y-10 opacity-0"
